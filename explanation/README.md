@@ -17,7 +17,7 @@ B.Service/Port Scan
       
 2. 192.168.1.2 – Uniview Device / IoT / CCTV
 -This appears to be a CCTV or IoT device.
--Ports 80, 82, 554, and 20000 open → web interface, media streaming, and device-specific services.
+-Ports 80, 82, 554, and 20000 open. web interface, media streaming, and device-specific services.
 -Could be vulnerable if outdated firmware, needs security review.
 
 3. 192.168.1.3 – TP-Link Extender (tl-wa850re)
