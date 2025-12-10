@@ -67,7 +67,7 @@ OS scan unreliable (not enough info)
 Aggressive guesses: network device/IoT device (printers, NAS, WAP, VoIP phones)
 Network Distance: 1 hop
 Explanation:
-Device is a WiFi range extender. Open SSH/HTTP/HTTPS ports → administrative access. Could be targeted if default credentials are used.
+Device is a WiFi range extender. Open SSH/HTTP/HTTPS ports. It can have administrative access. Could be targeted if default credentials are used.
         
   
 4.192.168.1.5 – shreesha       
