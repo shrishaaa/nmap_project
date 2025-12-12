@@ -56,7 +56,7 @@ Network Distance: 1 hop
 Explanation:
 Likely an IoT or CCTV device. Open streaming and management ports. Needs security awareness.
 
-4. 192.168.1.3 – TP-Link Extender (tl-wa850re)
+ 3. 192.168.1.3 – TP-Link Extender (tl-wa850re)
         
 Ports & Services:
 22/tcp – ssh
@@ -119,7 +119,7 @@ Analysis:
 Device is likely vulnerable to Slowloris DoS attacks (partial connections can freeze the web admin interface).
 SSH access must be secured (strong passwords or keys).
 
-4. 192.168.1.5 – shreesha (your device?)
+4. 192.168.1.5 – shreesha
 Ports & Services:
 6100/tcp – synchronet-db
 Vulnerabilities Found:
