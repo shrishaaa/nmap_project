@@ -111,10 +111,10 @@ Ports & Services:
 80/tcp – http
 443/tcp – https
 Vulnerabilities Found:
-Slowloris DoS (CVE-2007-6750) → likely vulnerable on HTTP/HTTPS.
+Slowloris DoS (CVE-2007-6750) which is likely vulnerable on HTTP/HTTPS.
 /error.html folder exposed.
 No CSRF or XSS found.
-Some script errors during scanning (like CVE2014-3704) → couldn’t complete.
+Some script errors during scanning (like CVE2014-3704) 
 Analysis:
 Device is likely vulnerable to Slowloris DoS attacks (partial connections can freeze the web admin interface).
 SSH access must be secured (strong passwords or keys).
@@ -133,11 +133,11 @@ Ports & Services:
 443/tcp – https
 554/tcp – rtsp
 Vulnerabilities Found:
-Slowloris DoS (CVE-2007-6750) → likely vulnerable.
+Slowloris DoS (CVE-2007-6750) which is likely vulnerable.
 No XSS or CSRF found.
 Analysis:
-Multiple devices have the same HTTP exposure → monitor and update firmware.
-Slowloris vulnerability → web interface can be DOS’ed remotely.
+Multiple devices have the same HTTP exposure. Need to monitor and update firmware.
+Slowloris vulnerability. Web interface can be DOS’ed remotely.
 
 E. Full Scan
 
